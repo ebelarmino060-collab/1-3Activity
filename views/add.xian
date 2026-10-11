@@ -1,0 +1,15 @@
+{{header}}
+<form method="Post" action="/insert">
+    <label for="animalName">animalName</label>
+    <input type="text" name="animalName" palceholder="animalName">
+    <label for="Type">Type</label>
+    <input type="text" name="Type" palceholder="Type">
+    <label for="Age">Age</label>
+    <input type="text" name="Age" palceholder="Age">
+    <label for="Gender">Gender</label>
+    <input type="text" name="Gender" palceholder="Gender">
+    <label for="Habitat">Habitat</label>
+    <input type="text" name="Habitat" palceholder="Habitat">
+    <input type="submit" name="save">
+
+</form>

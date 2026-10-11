@@ -1,0 +1,16 @@
+{{header}}
+    <form method="Post" action ="/update/{{data.id}}">
+
+        <label for="animalName">animalName</label>
+        <input type = "text" name="animalName" placeholder="AnimalName" value="{{data.AnimalName}}">
+        <label for="Type">Type</label>
+        <input type = "text" name="Type" placeholder="Type" value="{{data.Type}}">
+        <label for="Age">Age</label>
+        <input type = "text" name="Age" placeholder="Age" value="{{data.Age}}">
+        <label for="Gender">Gender</label>
+        <input type = "text" name="Gender" placeholder="Gender" value="{{data.Gender}}">
+        <label for="Habitat">Habitat</label>
+        <input type = "text" name="Habitat" placeholder="Habitat" value="{{data.Habitat}}">
+        <input type = "submit" name="save">
+
+    </form>
